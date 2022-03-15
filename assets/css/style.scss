@@ -1,0 +1,120 @@
+@media screen and (min-width : 1000px) {
+    @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+    body {
+        padding: 0;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    h1 {
+        text-align: center;
+        border: 1px solid black;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 15px 15px 15px 15px;
+        border-radius: 100px;
+        box-shadow: 12px 12px 1px  rgba(0, 0, 255, .2);
+    }
+
+    .cit {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        font-family: "Hubballi";
+        blockquote {
+            text-align: center;
+            font-size: 25px;
+            color: rgb(102, 91, 91);
+            font-style: italic;
+            padding-bottom: 50px;
+            &::before {
+                content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Cquote1_black.svg/40px-Cquote1_black.svg.png);
+            }
+        }
+        img {
+            display: block;
+            margin-left: auto; margin-right: auto;
+            border-radius: 100%;
+            width: 150px;
+            height: 150px;
+        }
+        q {
+            text-align: center;
+            font-size: 18px;
+            color: rgb(102, 91, 91);
+            &::before{
+                content: "- ";
+            }
+        }
+    }
+
+    .footer {
+        border-top: 1px solid rgb(145, 139, 139);
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width : 300px) and (max-width : 1000px) {
+    @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+    body {
+        padding: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        border: 1px solid black;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 15px 15px 15px 15px;
+        border-radius: 100px;
+        box-shadow: 12px 12px 1px  rgba(0, 0, 255, .2);
+        font-size: 20px;
+    }
+
+    .cit {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        font-family: "Hubballi";
+        blockquote {
+            text-align: center;
+            font-size: 25px;
+            color: rgb(102, 91, 91);
+            font-style: italic;
+            padding-bottom: 50px;
+            &::before {
+                content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Cquote1_black.svg/40px-Cquote1_black.svg.png);
+            }
+        }
+        img {
+            display: block;
+            margin-left: auto; margin-right: auto;
+            border-radius: 100%;
+            width: 150px;
+            height: 150px;
+        }
+        q {
+            padding-top: 20px;
+            text-align: center;
+            font-size: 18px;
+            color: rgb(102, 91, 91);
+            &::before{
+                content: "- ";
+            }
+        }
+    }
+
+    .footer {
+        border-top: 1px solid rgb(145, 139, 139);
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+}
+

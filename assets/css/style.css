@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+@media screen and (min-width: 1000px) {
+  body {
+    padding: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  h1 {
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 100px;
+    -webkit-box-shadow: 12px 12px 1px rgba(0, 0, 255, 0.2);
+            box-shadow: 12px 12px 1px rgba(0, 0, 255, 0.2);
+  }
+  .cit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-items: center;
+    font-family: "Hubballi";
+  }
+  .cit blockquote {
+    text-align: center;
+    font-size: 25px;
+    color: #665b5b;
+    font-style: italic;
+    padding-bottom: 50px;
+  }
+  .cit blockquote::before {
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Cquote1_black.svg/40px-Cquote1_black.svg.png);
+  }
+  .cit img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+  }
+  .cit q {
+    text-align: center;
+    font-size: 18px;
+    color: #665b5b;
+  }
+  .cit q::before {
+    content: "- ";
+  }
+  .footer {
+    border-top: 1px solid #918b8b;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 1000px) {
+  body {
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  h1 {
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 100px;
+    -webkit-box-shadow: 12px 12px 1px rgba(0, 0, 255, 0.2);
+            box-shadow: 12px 12px 1px rgba(0, 0, 255, 0.2);
+    font-size: 20px;
+  }
+  .cit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-items: center;
+    font-family: "Hubballi";
+  }
+  .cit blockquote {
+    text-align: center;
+    font-size: 25px;
+    color: #665b5b;
+    font-style: italic;
+    padding-bottom: 50px;
+  }
+  .cit blockquote::before {
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Cquote1_black.svg/40px-Cquote1_black.svg.png);
+  }
+  .cit img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+  }
+  .cit q {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #665b5b;
+  }
+  .cit q::before {
+    content: "- ";
+  }
+  .footer {
+    border-top: 1px solid #918b8b;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
