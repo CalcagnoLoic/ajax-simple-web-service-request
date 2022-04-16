@@ -1,9 +1,11 @@
-# Requête Ajax sur une page web
+<h1 align="center"> Asynchronous request on a web page </h1>
 
-![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+<p align="center">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)"/>
+</p>
 
-Création d'une interface web présentant une citation ainsi que la photo et le nom de son auteur.
+Creation of a web interface presenting a quote as well as the photo and name of its author.
 
-Le but est d'avoir une nouvelle citation à chaque rafraichissement de la page. Ce changement de citation se fait grâce à une requête Ajax récupérant les infos dans un fichier `.json`. Les infos récupérées sont incorporées dans le fichier grâce à une manipulation du DOM. 
+The goal is to have a new quote each time the page is refreshed. This change of citation is done thanks to an asynchronous request retrieving the information in a `.json` file. The information retrieved is incorporated into the file through a DOM manipulation.
 
-[Site web](https://calcagnoloic.github.io/ajax-simple-web-service-request/)
+[Website](https://calcagnoloic.github.io/ajax-simple-web-service-request/)
